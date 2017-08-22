@@ -38,7 +38,7 @@ setuptools.setup(
 
     packages=setuptools.find_packages(),
 
-    install_requires=['rpy2', 'argparse', 'pandas', 'biopython'],
+    install_requires=['rpy2==2.7.0', 'argparse', 'pandas', 'biopython'],
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
