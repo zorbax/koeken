@@ -29,15 +29,15 @@ import logging
 try:
 	import pandas as pd
 except ImportError:
-	raise ImportError('The module """pandas"" was not found! '
+	raise ImportError('The module """pandas""" was not found! '
 	'Please install with """pip install pandas""" and try again')
-
+"""
 try:
 	import qiime
 except ImportError:
-	raise ImportError('The module """QIIME"" was not found! '
+	raise ImportError('The module """QIIME""" was not found! '
 	'Use either MacQIIME or """pip install qiime""" before running the command. If using MacQIIME, start the macqiime environment first before running the command.')
-
+"""
 
 def get_args():
 	"""Gets arguments from command line inputs"""
